@@ -1,4 +1,4 @@
-# WordPress- Workshop
+# WordPress - Workshop
 
 ![Logo WordPress](https://github.com/bouchat-marieange/WordPress---Workshop/blob/master/images/logo_wordpress.png)
 
