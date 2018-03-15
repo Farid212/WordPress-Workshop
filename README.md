@@ -4,6 +4,8 @@
 
 ## Infos générales
 
+**Lieu :** BeCode - BeCentral - Local Lovelace
+
 **Date :** Vendredi 23 mars 2018
 
 **Heure :** de 9h00 à 12h30
