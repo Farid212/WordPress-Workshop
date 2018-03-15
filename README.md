@@ -28,7 +28,7 @@ Ce tour d’horizon vous démontrera que WordPress n’est pas qu’un CMS desti
 
 * Installation fonctionnelle de Wamp, Lamp ou Xampp sur votre ordinateur
 
-* Connaissance élémentaire en PHP (boucles, conditions...)
+* Connaissance élémentaire en PHP (boucles, conditions...), HTML5, CSS3 , Bootsrtap, JQuery
 
 
 ## Planning :
@@ -51,7 +51,7 @@ Ce tour d’horizon vous démontrera que WordPress n’est pas qu’un CMS desti
 * Bonnes pratiques dans l’usage de WordPress
 
 
-**15h15 - 16h15 : Pour aller plus loin**
+**10h30 - 11h50 : Pour aller plus loin**
 
 * Création et personnalisation de thèmes
 * Création d’extensions
@@ -60,7 +60,7 @@ Ce tour d’horizon vous démontrera que WordPress n’est pas qu’un CMS desti
 **11h00 - 11h15 : Pause**
 
 
-**11h15 - 12h20 : Maintenance et optimisation**
+**11h50 - 12h20 : Maintenance et optimisation**
 
 * Sécurisation
 * Optimisation
