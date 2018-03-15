@@ -2,6 +2,14 @@
 
 ![Logo WordPress](https://github.com/bouchat-marieange/WordPress---Workshop/blob/master/images/logo_wordpress.png)
 
+## Infos générales
+
+**Date :** Vendredi 23 mars 2018
+**Heure :** de 9h00 à 12h30
+**Animé par :** Marie-Ange Bouchat
+**Nbr de participants :** 17
+
+
 ## Objectif :
 
 Dans cet atelier, vous aurez l’occasion de vous familiariser avec le CMS WordPress qui est utilisé dans 29 % des sites internet présents sur le web. Installation, découverte de l’interface et personnalisation inaugureront cette session.
@@ -22,13 +30,13 @@ Ce tour d’horizon vous démontrera que WordPress n’est pas qu’un CMS desti
 
 ## Planning :
 
-**13h30 : Installation des différents prérequis :**
+**09h00 : Installation des différents prérequis :**
 
 * Création de la DB avec phpMyAdmin
 * Téléchargement de WordPress et installation en local
 
 
-**14h00 : Introduction à WordPress**
+**09h30 : Introduction à WordPress**
 
 * Qu’est-ce qu’un CMS
 * Présentation de sites réalisés avec WordPress
@@ -40,23 +48,22 @@ Ce tour d’horizon vous démontrera que WordPress n’est pas qu’un CMS desti
 * Bonnes pratiques dans l’usage de WordPress
 
 
-**15h00 - 15h15 : Pause**
-
-
 **15h15 - 16h15 : Pour aller plus loin**
 
 * Création et personnalisation de thèmes
 * Création d’extensions
 * Création de widgets
 
+**11h00 - 11h15 : Pause**
 
-**16h15 - 16h50 : Maintenance et optimisation**
+
+**11h15 - 12h20 : Maintenance et optimisation**
 
 * Sécurisation
 * Optimisation
 * Sauvegarde
 
-**16h50 - 17h00 : Conclusion**
+**12h20 - 12h30 : Conclusion**
 
 * Séance Questions - Réponses
 * Debriefing
