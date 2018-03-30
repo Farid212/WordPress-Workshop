@@ -1,0 +1,73 @@
+0000.100 () Opened log file at time: Wed, 21 Mar 2018 09:57:12 +0000 on http://localhost/wp_workshop
+0000.100 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux nb25 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.7.21 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.4M | 4M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.100 () Free space on disk containing Updraft's temporary directory: 378586.7 MB
+0000.150 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.154 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.478 () Entity: db
+0000.478 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-db.gz, type=db, info=a:0:{}, last_one=)
+0000.479 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-db.gz, 0 Mb)
+0000.480 () Database successfully unpacked
+0000.480 () Restauration de la base de données (cela peut prendre du temps si votre site est volumineux - en cas de timeout (ce qui arrive si votre hébergeur limite vos ressources), vous devrez utiliser une autre méthode comme phpMyAdmin…
+0000.480 () Using direct MySQL access; value of use_mysqli is: 1
+0001.137 () Max packet size: 32 MB
+0001.137 () Entering maintenance mode
+0001.137 () Activation du mode maintenance&#8230;
+0001.138 () Backup of: http://localhost/wp_workshop
+0001.138 () Content URL: http://localhost/wp_workshop/wp-content
+0001.138 () Uploads URL: http://localhost/wp_workshop/wp-content/uploads
+0001.139 () Old table prefix: work_
+0001.139 () Site information: multisite=0
+0001.139 () New table prefix: work_
+0001.405 () Processing table (InnoDB): work_options
+0002.586 () Restoring prior UD configuration (table: work_options; keys: 3)
+0002.889 () Processing table (InnoDB): work_users
+0003.614 () Processing table (InnoDB): work_usermeta
+0004.150 () Processing table (InnoDB): work_commentmeta
+0004.729 () Processing table (InnoDB): work_comments
+0005.540 () Processing table (InnoDB): work_links
+0006.000 () Processing table (InnoDB): work_postmeta
+0006.713 () Processing table (InnoDB): work_posts
+0007.499 () Processing table (InnoDB): work_term_relationships
+0008.151 () Processing table (InnoDB): work_term_taxonomy
+0008.829 () Processing table (InnoDB): work_termmeta
+0009.374 () Processing table (InnoDB): work_terms
+0009.843 () Unlocking database and leaving maintenance mode
+0009.843 () Désactivation du mode maintenance&#8230;
+0009.843 () Finished: lines processed: 41 in 9.36 seconds
+0009.843 () Nettoyage…
+0010.018 () Entity: plugins
+0010.018 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"/var/www/html/wp_workshop/wp-content/plugins";s:11:"description";s:10:"Extensions";}, last_one=)
+0010.019 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-plugins.zip, 6.4 Mb)
+0010.252 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.252 () Moving old data: can potentially use wp_filesystem method / -old
+0010.252 () Déplacement des anciennes données sur le bas-côté...
+0010.324 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php
+0010.325 () Déplacement de la sauvegarde décompressée…
+0010.398 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php
+0010.399 () Nettoyage…
+0010.497 () Entity: themes
+0010.497 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"/var/www/html/wp_workshop/wp-content/themes";s:11:"description";s:7:"Thèmes";}, last_one=)
+0010.498 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-themes.zip, 2.2 Mb)
+0010.526 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.526 () Moving old data: can potentially use wp_filesystem method / -old
+0010.526 () Déplacement des anciennes données sur le bas-côté...
+0010.537 () Top-level entities being moved: index.php, twentysixteen, twentyfifteen, twentyseventeen
+0010.538 () Déplacement de la sauvegarde décompressée…
+0010.548 () Top-level entities being moved: index.php, twentysixteen, twentyfifteen, twentyseventeen
+0010.549 () Nettoyage…
+0010.643 () Entity: uploads
+0010.643 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"/var/www/html/wp_workshop/wp-content/uploads";s:11:"description";s:17:"Fichiers envoyés";}, last_one=)
+0010.643 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-uploads.zip, 2.4 Mb)
+0010.657 () Moving old data: filesystem method / updraft_dir is potentially possible
+0010.657 () Moving old data: can potentially use wp_filesystem method / -old
+0010.657 () Déplacement des anciennes données sur le bas-côté...
+0010.657 () Déplacement de la sauvegarde décompressée…
+0010.659 () Nettoyage…
+0010.744 () Entity: others
+0010.744 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-others.zip, type=others, info=a:2:{s:4:"path";s:36:"/var/www/html/wp_workshop/wp-content";s:11:"description";s:6:"Autres";}, last_one=1)
+0010.744 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-others.zip, 1.3 Mb)
+0010.787 () PHP event: code E_WARNING: copy(): The first argument to copy() function cannot be a directory (line 243, wp-admin/includes/class-wp-filesystem-direct.php)
+0010.787 () Error message: Impossible de déplacer les anciens fichiers à côté. Vous devriez vérifier les droits associés au fichier dans votre installation WordPress (/var/www/html/wp_workshop/wp-content/languages)
+0010.787 () Restore failed...
+0010.787 () Error message: Impossible de déplacer les anciens fichiers à côté. Vous devriez vérifier les droits associés au fichier dans votre installation WordPress (/var/www/html/wp_workshop/wp-content/languages)
+0010.787 () Restore failed

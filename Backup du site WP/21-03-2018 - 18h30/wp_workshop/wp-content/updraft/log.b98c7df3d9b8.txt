@@ -1,0 +1,71 @@
+0000.268 () Opened log file at time: Wed, 21 Mar 2018 07:32:27 +0000 on http://localhost/wp_workshop
+0000.268 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux nb25 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.7.21 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.4M | 8M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.268 () Free space on disk containing Updraft's temporary directory: 378712 MB
+0000.401 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.405 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.944 () Entity: db
+0000.944 () restore_backup(backup_file=backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-db.gz, type=db, info=a:0:{}, last_one=)
+0000.944 () Décompression de la sauvegarde… (backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-db.gz, 0 Mb)
+0000.945 () Database successfully unpacked
+0000.945 () Restauration de la base de données (cela peut prendre du temps si votre site est volumineux - en cas de timeout (ce qui arrive si votre hébergeur limite vos ressources), vous devrez utiliser une autre méthode comme phpMyAdmin…
+0000.945 () Using direct MySQL access; value of use_mysqli is: 1
+0002.375 () Max packet size: 32 MB
+0002.375 () Entering maintenance mode
+0002.375 () Activation du mode maintenance&#8230;
+0002.377 () Backup of: http://localhost/wp_workshop
+0002.378 () Content URL: http://localhost/wp_workshop/wp-content
+0002.378 () Uploads URL: http://localhost/wp_workshop/wp-content/uploads
+0002.378 () Old table prefix: work_
+0002.378 () Site information: multisite=0
+0002.378 () New table prefix: work_
+0002.760 () Processing table (InnoDB): work_options
+0005.236 () Restoring prior UD configuration (table: work_options; keys: 3)
+0005.472 () Processing table (InnoDB): work_users
+0006.998 () Processing table (InnoDB): work_usermeta
+0008.408 () Processing table (InnoDB): work_commentmeta
+0010.743 () Processing table (InnoDB): work_comments
+0014.949 () Processing table (InnoDB): work_links
+0016.036 () Processing table (InnoDB): work_postmeta
+0017.073 () Processing table (InnoDB): work_posts
+0019.594 () Processing table (InnoDB): work_term_relationships
+0021.482 () Processing table (InnoDB): work_term_taxonomy
+0022.370 () Processing table (InnoDB): work_termmeta
+0023.372 () Processing table (InnoDB): work_terms
+0024.800 () Unlocking database and leaving maintenance mode
+0024.801 () Désactivation du mode maintenance&#8230;
+0024.801 () Finished: lines processed: 41 in 23.85 seconds
+0024.801 () Nettoyage…
+0025.215 () Entity: plugins
+0025.215 () restore_backup(backup_file=backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"/var/www/html/wp_workshop/wp-content/plugins";s:11:"description";s:10:"Extensions";}, last_one=)
+0025.215 () Décompression de la sauvegarde… (backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-plugins.zip, 6.4 Mb)
+0027.649 () Moving old data: filesystem method / updraft_dir is potentially possible
+0027.649 () Moving old data: can potentially use wp_filesystem method / -old
+0027.649 () Déplacement des anciennes données sur le bas-côté...
+0030.297 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php
+0030.298 () Déplacement de la sauvegarde décompressée…
+0030.404 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php
+0030.405 () Nettoyage…
+0030.741 () Entity: themes
+0030.741 () restore_backup(backup_file=backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"/var/www/html/wp_workshop/wp-content/themes";s:11:"description";s:7:"Thèmes";}, last_one=)
+0030.741 () Décompression de la sauvegarde… (backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-themes.zip, 2.2 Mb)
+0031.071 () Moving old data: filesystem method / updraft_dir is potentially possible
+0031.071 () Moving old data: can potentially use wp_filesystem method / -old
+0031.071 () Déplacement des anciennes données sur le bas-côté...
+0031.199 () Top-level entities being moved: index.php, twentysixteen, twentyfifteen, twentyseventeen
+0031.199 () Déplacement de la sauvegarde décompressée…
+0031.208 () Top-level entities being moved: index.php, twentysixteen, twentyfifteen, twentyseventeen
+0031.208 () Nettoyage…
+0031.460 () Entity: uploads
+0031.460 () restore_backup(backup_file=backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"/var/www/html/wp_workshop/wp-content/uploads";s:11:"description";s:17:"Fichiers envoyés";}, last_one=)
+0031.460 () Décompression de la sauvegarde… (backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-uploads.zip, 0 Mb)
+0031.461 () Moving old data: filesystem method / updraft_dir is potentially possible
+0031.461 () Moving old data: can potentially use wp_filesystem method / -old
+0031.461 () Déplacement des anciennes données sur le bas-côté...
+0031.504 () Déplacement de la sauvegarde décompressée…
+0031.504 () Nettoyage…
+0031.786 () Entity: others
+0031.786 () restore_backup(backup_file=backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-others.zip, type=others, info=a:2:{s:4:"path";s:36:"/var/www/html/wp_workshop/wp-content";s:11:"description";s:6:"Autres";}, last_one=1)
+0031.786 () Décompression de la sauvegarde… (backup_2018-03-20-2240_WordPress_Workshop_fe7b3ef6b538-others.zip, 0.6 Mb)
+0032.039 () Nettoyage…
+0032.513 () Restore successful!
+0032.513 () Restore successful

@@ -1,0 +1,8 @@
+0000.127 () Opened log file at time: Tue, 20 Mar 2018 23:17:50 +0000 on http://localhost/wp_workshop
+0000.127 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.25-0ubuntu0.16.04.1 (apache2handler, Linux nb25 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.7.21 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.4M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.127 () Free space on disk containing Updraft's temporary directory: 378684.5 MB
+0000.169 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.184 () Error message: Des dossiers issus d'une précédente restauration sont toujours présents (veuillez utiliser le bouton "Supprimer les anciens dossiers" pour les supprimer avant de recommencer): /var/www/html/wp_workshop/wp-content/plugins-old
+0000.238 () Restore failed...
+0000.238 () Error message: Des dossiers issus d'une précédente restauration sont toujours présents (veuillez utiliser le bouton "Supprimer les anciens dossiers" pour les supprimer avant de recommencer): /var/www/html/wp_workshop/wp-content/plugins-old
+0000.238 () Restore failed

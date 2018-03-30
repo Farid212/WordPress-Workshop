@@ -1,0 +1,21 @@
+/*
+Theme Name: twentyseventeen_child
+Description: Theme enfant du theme twentyseventeen
+Author: Marie-Ange Bouchat
+Author URI: https://github.com/bouchat-marieange
+Template: twentyseventeen
+Version: 1.0
+*/
+
+.copyright
+{
+/* background-color: red; */
+text-align: center;
+}
+
+.site-info
+{
+  /* background-color: blue; */
+  width: 100%;
+  text-align : center;
+}

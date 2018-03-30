@@ -1,0 +1,41 @@
+0000.090 () Opened log file at time: Wed, 21 Mar 2018 09:59:27 +0000 on http://localhost/wp_workshop
+0000.090 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux nb25 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.7.21 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.4M | 10M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.090 () Free space on disk containing Updraft's temporary directory: 378570 MB
+0000.140 () Restore job started. Entities to restore: plugins, themes, uploads, others. Restore options: {"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.144 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.265 () Entity: plugins
+0000.265 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:44:"/var/www/html/wp_workshop/wp-content/plugins";s:11:"description";s:10:"Extensions";}, last_one=)
+0000.266 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-plugins.zip, 6.4 Mb)
+0000.550 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.550 () Moving old data: can potentially use wp_filesystem method / -old
+0000.550 () Déplacement des anciennes données sur le bas-côté...
+0000.621 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php
+0000.621 () Déplacement de la sauvegarde décompressée…
+0000.693 () Top-level entities being moved: index.php, updraftplus, akismet, hello.php
+0000.694 () Nettoyage…
+0000.796 () Entity: themes
+0000.796 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-themes.zip, type=themes, info=a:2:{s:4:"path";s:43:"/var/www/html/wp_workshop/wp-content/themes";s:11:"description";s:7:"Thèmes";}, last_one=)
+0000.796 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-themes.zip, 2.2 Mb)
+0000.823 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.823 () Moving old data: can potentially use wp_filesystem method / -old
+0000.823 () Déplacement des anciennes données sur le bas-côté...
+0000.835 () Top-level entities being moved: index.php, twentysixteen, twentyfifteen, twentyseventeen
+0000.835 () Déplacement de la sauvegarde décompressée…
+0000.846 () Top-level entities being moved: index.php, twentysixteen, twentyfifteen, twentyseventeen
+0000.846 () Nettoyage…
+0000.940 () Entity: uploads
+0000.940 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:44:"/var/www/html/wp_workshop/wp-content/uploads";s:11:"description";s:17:"Fichiers envoyés";}, last_one=)
+0000.941 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-uploads.zip, 2.4 Mb)
+0000.957 () Moving old data: filesystem method / updraft_dir is potentially possible
+0000.958 () Moving old data: can potentially use wp_filesystem method / -old
+0000.958 () Déplacement des anciennes données sur le bas-côté...
+0000.959 () Déplacement de la sauvegarde décompressée…
+0000.961 () Nettoyage…
+0001.041 () Entity: others
+0001.041 () restore_backup(backup_file=backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-others.zip, type=others, info=a:2:{s:4:"path";s:36:"/var/www/html/wp_workshop/wp-content";s:11:"description";s:6:"Autres";}, last_one=1)
+0001.041 () Décompression de la sauvegarde… (backup_2018-03-20-2341_WordPress_Workshop_3fe9dfe0ffbb-others.zip, 1.3 Mb)
+0001.082 () PHP event: code E_WARNING: copy(): The first argument to copy() function cannot be a directory (line 243, wp-admin/includes/class-wp-filesystem-direct.php)
+0001.082 () Error message: Impossible de déplacer les anciens fichiers à côté. Vous devriez vérifier les droits associés au fichier dans votre installation WordPress (/var/www/html/wp_workshop/wp-content/languages)
+0001.082 () Restore failed...
+0001.082 () Error message: Impossible de déplacer les anciens fichiers à côté. Vous devriez vérifier les droits associés au fichier dans votre installation WordPress (/var/www/html/wp_workshop/wp-content/languages)
+0001.082 () Restore failed

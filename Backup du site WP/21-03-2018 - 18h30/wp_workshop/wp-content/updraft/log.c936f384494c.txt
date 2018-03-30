@@ -1,0 +1,184 @@
+0000.000 (0) Opened log file at time: Wed, 21 Mar 2018 17:06:46 +0000 on http://localhost/wp_workshop
+0000.042 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.14.4 WP: 4.9.4 PHP: 7.0.28-0ubuntu0.16.04.1 (apache2handler, Linux nb25 4.4.0-116-generic #140-Ubuntu SMP Mon Feb 12 21:23:04 UTC 2018 x86_64) MySQL: 5.7.21 WPLANG: fr_FR Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 8.2M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.084 (0) Free space on disk containing Updraft's temporary directory: 378485.9 MB
+0000.126 (0) Tasks: Backup files: 1 (schedule: twicedaily) Backup DB: 1 (schedule: twicedaily)
+0000.209 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.376 (0) Set semaphore last lock (fd) time to 2018-03-21 17:06:46
+0000.418 (0) Semaphore lock (fd) complete
+0000.552 (0) Backup run: resumption=0, nonce=c936f384494c, begun at=1521652006 (1s ago), job type=backup
+0000.635 (0) Scheduling a resumption (1) after 300 seconds (1521652307) in case this run gets aborted
+0000.728 (0) Checking if we have a zip executable available
+0000.777 (0) Testing: /usr/bin/zip
+0000.834 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.878 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.928 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.978 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0001.028 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0001.084 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0001.129 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0001.180 (0) Working binary zip found: /usr/bin/zip
+0001.280 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0001.330 (0) Creation of backups of directories: beginning
+0001.480 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0001.592 (0) Total entities for the zip file: 205 directories, 1305 files (0 skipped as non-modified), 21 MB
+0001.633 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0001.674 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0001.716 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0001.758 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0001.800 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.840 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.9 MB, 1305 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0002.665 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: size is now: 5.00 MB
+0002.751 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 600 files added (on-disk size: 5090.5 KB)
+0002.793 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 700 files added (on-disk size: 5090.5 KB)
+0002.834 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 800 files added (on-disk size: 5090.5 KB)
+0002.877 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 900 files added (on-disk size: 5090.5 KB)
+0002.920 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 1000 files added (on-disk size: 5090.5 KB)
+0002.969 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (2.7 MB, 1305 files batched, 501 (1002) added so far); re-opening (prior size: 5090.5 KB)
+0003.212 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 1100 files added (on-disk size: 5931.2 KB)
+0003.263 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 1200 files added (on-disk size: 5931.2 KB)
+0003.313 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip.tmp: 1300 files added (on-disk size: 5931.2 KB)
+0003.712 (0) Created plugins zip (0) - 6511.3 KB in 2.2 s (2976.3 KB/s) (sha1: d2178f8b60c690a8a54d836a449ea8bd2715954f, sha256: 7d5c927507d621e332924cb4ed144f77ab9de95657adb130b2a6d657911bfbe6)
+0003.812 (0) Beginning creation of dump of themes (split every: 400 MB)
+0003.914 (0) Total entities for the zip file: 24 directories, 144 files (0 skipped as non-modified), 2.9 MB
+0003.964 (0) Zip: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.086 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-themes.zip.tmp: size is now: 2.20 MB
+0004.338 (0) Created themes zip (0) - 2266.1 KB in 0.5 s (4773.7 KB/s) (sha1: 7535b5ca5adda10e80a1fe92fce62c269bb51e1d, sha256: 13b589ccc639c3889497f335dd9951718afbe26b0c1b1923f592c32efa4794fb)
+0004.438 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.489 (0) Looking for candidates to back up in: /var/www/html/wp_workshop/wp-content/uploads
+0004.539 (0) finding files: 2018: adding to list (1)
+0004.589 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.690 (0) Total entities for the zip file: 2 directories, 31 files (0 skipped as non-modified), 2.7 MB
+0004.842 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-uploads.zip.tmp: size is now: 2.60 MB
+0005.107 (0) Created uploads zip (0) - 2627.6 KB in 0.5 s (5631.5 KB/s) (sha1: 7526f171319eabe78b54d2efeefb38ae786dffc1, sha256: 6df3db96018c69d98fe67ec3c9a7105b9f7e86d614411e14df5d9941bcd0b5b2)
+0005.191 (0) Beginning backup of other directories found in the content directory (index: 0)
+0005.233 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0005.274 (0) Looking for candidates to back up in: /var/www/html/wp_workshop/wp-content
+0005.316 (0) finding files: uploads: skipping: this is the uploads directory
+0005.358 (0) finding files: plugins: skipping: this is the plugins directory
+0005.400 (0) finding files: index.php: adding to list (1)
+0005.442 (0) finding files: languages-old: adding to list (2)
+0005.483 (0) finding files: index.php-old: adding to list (3)
+0005.525 (0) finding files: themes: skipping: this is the themes directory
+0005.567 (0) finding files: themes-old: adding to list (4)
+0005.609 (0) finding files: uploads-old: adding to list (5)
+0005.651 (0) finding files: updraft: skipping: this is the updraft directory
+0005.693 (0) finding files: plugins-old: adding to list (6)
+0005.734 (0) finding files: languages: adding to list (7)
+0005.776 (0) finding files: upgrade: skipping: excluded by options
+0005.870 (0) Total entities for the zip file: 9 directories, 42 files (0 skipped as non-modified), 4.4 MB
+0006.173 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-others.zip.tmp: size is now: 1.30 MB
+0006.370 (0) Created others zip (0) - 1283.7 KB in 0.6 s (2331.7 KB/s) (sha1: 4bb257b158aaf383b0617d551ce99668e9e40596, sha256: c199fea9f2afc6e25e0916d5886beda3bb35310f10571864a8f7b7d792db656c)
+0006.596 (0) Saving backup status to database (elements: 8)
+0006.696 (0) Beginning creation of database dump (WordPress DB)
+0006.797 (0) Testing: /usr/bin/mysqldump
+0006.866 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `work_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nC (truncated - 1222 bytes total)
+0006.914 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0007.065 (0) Table work_options: Total expected rows (approximate): 204
+0007.128 (0) Table work_options: Total rows added: 195 in 0.01 seconds
+0007.182 (0) Table work_options: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_options.table.gz - 27.2 KB)
+0007.333 (0) Table work_users: Total expected rows (approximate): 1
+0007.376 (0) Table work_users: Total rows added: 1 in 0.00 seconds
+0007.424 (0) Table work_users: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_users.table.gz - 0.6 KB)
+0007.549 (0) Table work_usermeta: Total expected rows (approximate): 27
+0007.592 (0) Table work_usermeta: Total rows added: 27 in 0.00 seconds
+0007.633 (0) Table work_usermeta: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_usermeta.table.gz - 1.2 KB)
+0007.759 (0) Table work_commentmeta: Total expected rows (approximate): 0
+0007.802 (0) Table work_commentmeta: Total rows added: 0 in 0.00 seconds
+0007.842 (0) Table work_commentmeta: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_commentmeta.table.gz - 0.4 KB)
+0007.968 (0) Table work_comments: Total expected rows (approximate): 2
+0008.012 (0) Table work_comments: Total rows added: 2 in 0.00 seconds
+0008.060 (0) Table work_comments: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_comments.table.gz - 0.9 KB)
+0008.186 (0) Table work_links: Total expected rows (approximate): 0
+0008.237 (0) Table work_links: Total rows added: 0 in 0.00 seconds
+0008.286 (0) Table work_links: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_links.table.gz - 0.4 KB)
+0008.412 (0) Table work_postmeta: Total expected rows (approximate): 98
+0008.464 (0) Table work_postmeta: Total rows added: 98 in 0.00 seconds
+0008.512 (0) Table work_postmeta: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_postmeta.table.gz - 2.6 KB)
+0008.655 (0) Table work_posts: Total expected rows (approximate): 50
+0008.712 (0) Table work_posts: Total rows added: 50 in 0.01 seconds
+0008.765 (0) Table work_posts: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_posts.table.gz - 7.5 KB)
+0008.915 (0) Table work_term_relationships: Total expected rows (approximate): 32
+0008.967 (0) Table work_term_relationships: Total rows added: 32 in 0.00 seconds
+0009.015 (0) Table work_term_relationships: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_term_relationships.table.gz - 0.5 KB)
+0009.166 (0) Table work_term_taxonomy: Total expected rows (approximate): 20
+0009.218 (0) Table work_term_taxonomy: Total rows added: 20 in 0.00 seconds
+0009.266 (0) Table work_term_taxonomy: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_term_taxonomy.table.gz - 0.8 KB)
+0009.408 (0) Table work_termmeta: Total expected rows (approximate): 0
+0009.451 (0) Table work_termmeta: Total rows added: 0 in 0.00 seconds
+0009.500 (0) Table work_termmeta: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_termmeta.table.gz - 0.4 KB)
+0009.626 (0) Table work_terms: Total expected rows (approximate): 20
+0009.670 (0) Table work_terms: Total rows added: 20 in 0.00 seconds
+0009.709 (0) Table work_terms: finishing file (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_terms.table.gz - 0.7 KB)
+0009.843 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_options.table.gz (1/12): adding to final database dump
+0009.893 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_users.table.gz (2/12): adding to final database dump
+0009.935 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_usermeta.table.gz (3/12): adding to final database dump
+0009.977 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_commentmeta.table.gz (4/12): adding to final database dump
+0010.018 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_comments.table.gz (5/12): adding to final database dump
+0010.061 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_links.table.gz (6/12): adding to final database dump
+0010.102 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_postmeta.table.gz (7/12): adding to final database dump
+0010.144 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_posts.table.gz (8/12): adding to final database dump
+0010.196 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_term_relationships.table.gz (9/12): adding to final database dump
+0010.244 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_term_taxonomy.table.gz (10/12): adding to final database dump
+0010.286 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_termmeta.table.gz (11/12): adding to final database dump
+0010.328 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db-table-work_terms.table.gz (12/12): adding to final database dump
+0010.370 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db.gz: finished writing out complete database file (24 KB)
+0010.562 (0) Total database tables backed up: 12 (backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db.gz, size: 41097, sha256)
+0010.763 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0010.813 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0010.855 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0010.905 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-others.zip: others: This file has not yet been successfully uploaded: will queue
+0010.946 (0) backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db.gz: db: This file has not yet been successfully uploaded: will queue
+0010.996 (0) Saving backup history. Total backup size: 12.4 MB
+0011.097 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0011.247 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0011.297 (0) No remote despatch: user chose no remote backup service
+0011.531 (0) Recording as successfully uploaded: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-plugins.zip (e8585856e12dafd6abf54430639bed36)
+0012.258 (0) Recording as successfully uploaded: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-themes.zip (08fd7db051b7e23336209ed90248f0d3)
+0012.442 (0) Recording as successfully uploaded: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-uploads.zip (4ff9e758cff343272dcc089c50c55f2a)
+0012.642 (0) Recording as successfully uploaded: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-others.zip (69260fbfae2ed15cc649c6ce78d423a5)
+0012.835 (0) Recording as successfully uploaded: backup_2018-03-21-1806_WordPress_Workshop_c936f384494c-db.gz (6bad4bae8be33c84b2cc7b3ec64f7360)
+0013.019 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=50, retain_db=50
+0013.061 (0) Number of backup sets in history: 7; groups (db): 1
+0013.102 (0) Examining (for databases) backup set with group_id=0, nonce=c936f384494c, datestamp=1521652006 (Mar 21 2018 17:06:46)
+0013.144 (0) This backup set is the backup set just made, so will not be deleted.
+0013.144 (0) Examining (for databases) backup set with group_id=0, nonce=b225c019e731, datestamp=1521643146 (Mar 21 2018 14:39:06)
+0013.144 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.186 (0) Examining (for databases) backup set with group_id=0, nonce=7c9d672c54a8, datestamp=1521641709 (Mar 21 2018 14:15:09)
+0013.186 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.186 (0) Examining (for databases) backup set with group_id=0, nonce=f7e1ff2745cc, datestamp=1521633927 (Mar 21 2018 12:05:27)
+0013.186 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.186 (0) Examining (for databases) backup set with group_id=0, nonce=8f60fb0ee8c7, datestamp=1521632777 (Mar 21 2018 11:46:17)
+0013.186 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.187 (0) Examining (for databases) backup set with group_id=0, nonce=567b0be2ec13, datestamp=1521626759 (Mar 21 2018 10:05:59)
+0013.187 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.187 (0) Examining (for databases) backup set with group_id=0, nonce=297e9118831b, datestamp=1521617820 (Mar 21 2018 07:37:00)
+0013.187 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.187 (0) Number of backup sets in history: 7; groups (files): 1
+0013.227 (0) Examining (for files) backup set with nonce=c936f384494c, datestamp=1521652006 (Mar 21 2018 17:06:46)
+0013.228 (0) This backup set is the backup set just made, so will not be deleted.
+0013.277 (0) This backup set is the backup set just made, so will not be deleted.
+0013.278 (0) This backup set is the backup set just made, so will not be deleted.
+0013.278 (0) This backup set is the backup set just made, so will not be deleted.
+0013.278 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.319 (0) Examining (for files) backup set with nonce=b225c019e731, datestamp=1521643146 (Mar 21 2018 14:39:06)
+0013.319 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.319 (0) Examining (for files) backup set with nonce=7c9d672c54a8, datestamp=1521641709 (Mar 21 2018 14:15:09)
+0013.319 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.320 (0) Examining (for files) backup set with nonce=f7e1ff2745cc, datestamp=1521633927 (Mar 21 2018 12:05:27)
+0013.320 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.320 (0) Examining (for files) backup set with nonce=8f60fb0ee8c7, datestamp=1521632777 (Mar 21 2018 11:46:17)
+0013.320 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.320 (0) Examining (for files) backup set with nonce=567b0be2ec13, datestamp=1521626759 (Mar 21 2018 10:05:59)
+0013.320 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.320 (0) Examining (for files) backup set with nonce=297e9118831b, datestamp=1521617820 (Mar 21 2018 07:37:00)
+0013.320 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0013.320 (0) Retain: saving new backup history (sets now: 7) and finishing retain operation
+0013.411 (0) Resume backup (c936f384494c, 0): finish run
+0013.536 (0) Decremented the semaphore (fd) by 1
+0013.628 (0) Semaphore (fd) unlocked
+0013.670 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0013.804 (0) The backup apparently succeeded and is now complete
+0013.854 (0) Fetching RSS news feed
+0013.908 (0) Fetched RSS news feed; result is a: SimplePie
+0013.963 (0) Sending email ('Fichiers et base de données (Sauvegarde complète)') report (attachments: 0, size: 0 KB) to: bouch...
+0014.022 (0) La sauvegarde a réussie. Elle est maintenant terminée.
