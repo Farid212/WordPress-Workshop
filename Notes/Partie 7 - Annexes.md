@@ -1,8 +1,8 @@
-## Partie 7 : Annexes
+﻿# Partie 7 : Annexes
 
-### Ressources
+## Ressources
 
-#### Comment déployer son site Wordpress sur un serveur en ligne
+### Comment déployer son site Wordpress sur un serveur en ligne
 
 Pour installer WordPress en ligne vous avez besoin de :
 - Un serveur web (voir liste de suggestions plus bas)
@@ -29,7 +29,7 @@ Voici quelques articles qui vous apporterons de précieux conseils dans l'étape
 
 Vous pouvez choisir un hébergeur qui respecte les 2 conditions suivantes : le serveur doit être capable de lire le langage PHP et le langage de base de données MySQL.
 
-Les recommandation du site WordPress.org en matière d'hébergement sont les suivantes, elle ne représente pas une limitation mais bien une recommandation pour une meilleure securité:
+Les recommandations du site WordPress.org en matière d’hébergement sont les suivantes, elle ne représente pas une limitation, mais bien une recommandation pour une meilleure sécurité :
 
 Serveur Apache ou NGinx
 PHP version 7.2 ou supérieure
@@ -41,7 +41,7 @@ Configuration minimale de votre hébergeur pour un site WordPress:
 PHP 5.4 ou supérieure
 MySQL 5.5 ou supérieure
 
-Attention ce type de configuration vous expose à des failles de sécurité connues et non colmatées dans ces versions et à un éffondrement des performances de votre site.
+Attention ce type de configuration vous expose à des failles de sécurité connues et non colmatées dans ces versions et à un effondrement des performances de votre site.
 
 Voici quelques articles qui pourront vous aider dans le choix de votre hébergeur en fonction de vos besoins: (hébergement sur un serveur mutualisé, dédié VPS ou spécialement conçu pour WordPress)
 
@@ -49,38 +49,50 @@ https://wpmarmite.com/hebergement-wordpress/
 https://www.mister-wp.com/guests/quel-hebergeur-web/
 https://wpformation.com/choisir-hebergement-wordpress/
 
-Par expérience, je vous déconseille les offres d'hébergement gratuites qui souvent offrent de piètres performances mais surtout qui en cas de problème vous offre un support quasi inexistant. Les offres payantes ne signifie pas de se ruiner, certaines offre débute à 2.41€/mois auquel il faudra ajouter le prix de votre nom de domaine (https://www.dnsbelgium.be/fr/nom-de-domaine) au alentour de 10€
+Par expérience, je vous déconseille les offres d’hébergement gratuites qui souvent offrent de piètres performances, mais surtout qui en cas de problème vous offre un support quasi inexistant. Les offres payantes ne signifient pas de se ruiner, certaines offre débute à 2.41€/mois auquel il faudra ajouter le prix de votre nom de domaine (https://www.dnsbelgium.be/fr/nom-de-domaine) aux alentours de 10€
 
 
 Les hébergeurs que je vous conseille:
 
-- OVH (https://www.ovh.com/fr/) - payant - leader du marché - prix bas mais peu être complexe et support mail lent mais rapide par téléphone
+- OVH (https://www.ovh.com/fr/) - payant - leader du marché - prix bas, mais peut-être complexe et support mail lent, mais rapide par téléphone
 
-- One.com (https://www.one.com/fr/) - payant - prix très attractif,2.41€ TTC/mois) interface en français et très claire et accès directement via l'interface du site à votre DB - support en ligne 24h/24 - Website Builder 5 pages gratuits inclus dans l'offre. Nom de domaine pouvant également être commander sur le site (prix à partir de 8€, 9€ pour un .be)
+- One.com (https://www.one.com/fr/) - payant - prix très attractif,2.41€ TTC/mois) interface en français et très claire et accès directement via l’interface du site à votre DB - support en ligne 24h/24 - Website Builder 5 pages gratuits inclus dans l’offre. Nom de domaine pouvant également être commandé sur le site (prix à partir de 8€, 9€ pour un .be)
 
 - O2swithc (https://www.o2switch.fr/)
 
 
 Je vous recommande de consulter cet article concernant les meilleurs hébergements de sites WordPress pour 2018 : https://hebergement-wp.info/comparatif-hebergements-wordpress/
 
-Pour les sites de eCommerce qui se doivent d'être toujours accessible et sécurisé, le choix d'un hébergement de qualité est primordiale. Je vous recommande de consulter cet article concernant plus spécifiquement le top 5 des meilleurs hébergements WooCommerce pour 2017 : https://hebergement-wp.info/comparatif-hebergements-woocommerce/
+Pour les sites de e-commerce qui se doivent d’être toujours accessible et sécurisé, le choix d’un hébergement de qualité est primordial. Je vous recommande de consulter cet article concernant plus spécifiquement le top 5 des meilleurs hébergements WooCommerce pour 2017 : https://hebergement-wp.info/comparatif-hebergements-woocommerce/
 
 
-Voici un article qui poura vous aider dans le choix de votre hébergeur en fonction de vos besoins:
+Voici un article qui pourra vous aider dans le choix de votre hébergeur en fonction de vos besoins:
 
 https://wpformation.com/choisir-hebergement-wordpress/
 
 
-Lorsque vous souscrivez à une formule d'hébergement, vous recevez un mail de votre hébergeur contenant les codes d'accès (adresse, identifiant, mot de passe, port) nécessaires pour mettre votre site en ligne sur votre espace d'hébergement.
+Lorsque vous souscrivez à une formule d’hébergement, vous recevez un mail de votre hébergeur contenant les codes d’accès (adresse, identifiant, mot de passe, port) nécessaires pour mettre votre site en ligne sur votre espace d’hébergement.
 
-Selon les hébergeurs, les instructions seront peut-être légèrement différentes, mais généralement, vous devrez placer le contenu de votre dossier wordpress (pas le dossier mais uniquement son contenu) dans le dossier nommé "www" ou directement à la racine de votre espace d'hébergement.![Installation WP - etape 2](install wp 2.jpg)
-
-
-#### Les sites traitant de WordPress pour vous tenir au courant et en apprendre plus
-
-* WP Marmite (https://wpmarmite.com) :  Un site en français très bien conçu pour les débutants, qui vous permettra de gagner rapidement en compétences et de répondre à la majorité des questions que vous pouvez vous poser lorsque vous débuter avec WordPress. On vous prends par la main et on vous explique tout ;)
+Selon les hébergeurs, les instructions seront peut-être légèrement différentes, mais généralement, vous devrez placer le contenu de votre dossier wordpress (pas le dossier, mais uniquement son contenu) dans le dossier nommé « www » ou directement à la racine de votre espace d’hébergement.![Installation WP - étape 2](install wp 2.jpg)
 
 
-#### Glossaire des termes wordPress
+### Les sites traitant de WordPress pour vous tenir au courant et en apprendre plus
+
+* WP Marmite (https://wpmarmite.com) :  Un site en français très bien conçu pour les débutants, qui vous permettra de gagner rapidement en compétences et de répondre à la majorité des questions que vous pouvez vous poser lorsque vous débutez avec WordPress. On vous prend par la main et on vous explique tout. ;)
+
+
+### Glossaire des termes WordPress
 
 https://wpmarmite.com/glossaire/
+
+
+
+
+
+
+
+
+
+
+
+
