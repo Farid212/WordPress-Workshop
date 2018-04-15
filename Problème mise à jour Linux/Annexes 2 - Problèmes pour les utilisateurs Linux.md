@@ -14,11 +14,11 @@ Pour certains utilisateurs de Linux sous Ubuntu, WordPress demande de passer par
 
 *	Contenu du fichier test.php à placer directement à la racine de votre dossier local (htdocs ou html) sur votre ordinateur :
 
-```PHP
-<?php
-echo(exec("whoami"));
-?>
-```
+   ```PHP
+   <?php
+   echo(exec("whoami"));
+   ?>
+   ```
 
 *	Lancer le fichier dans votre navigateur. Un mot apparait à l’écran (il peut s’agir de daemon ou de www-data ou autre), copier ce mot (Ctrl+C)
 
@@ -28,20 +28,20 @@ echo(exec("whoami"));
 
 *	Vous devriez avoir dans votre console un chemin ressemblant à cela :
 
-```
-user@nb25:/var/www/html$
-```
+   ```
+   user@nb25:/var/www/html$
+   ```
 
-ou
-```
-user@nb25:/opt/lampp/htdocs$
-```
+   ou
+   ```
+   user@nb25:/opt/lampp/htdocs$
+   ```
 
 *	Taper maintenant la commande suivante dans votre console (attention remplacer www-data par le mot obtenu avec le fichier test.php et remplacer wp_workshop par le nom du dossier WordPress sur lequel vous travailler)
 
-```
-sudo chown -R www-data : wp_workshop
-```
+   ```
+   sudo chown -R www-data : wp_workshop
+   ```
 
 Attention : Cette opération devra être répétée à chaque fois que vous créez un nouveau dossier WordPress pour éviter ce problème de demande de FTP lorsque vous développez en local et que vous tentez de faire des mises à jour d’extensions.
 Retourner sur l’onglet où se trouve l’interface d’administration de votre WordPress. Important : RAFRAICHISSEZ LA PAGE. Aller dans « Extensions » et cliquer sur mise à jour pour les extensions qui le demande. En principe la mise à jour se déroule maintenant sans problèmes.
@@ -57,28 +57,28 @@ Pour les utilisateurs de Linux: si vous avez un souci pour créer un dossier ou 
 
 3.	Vous devriez avoir un chemin dans la console qui ressembler à ça
 
-```
-user@nb25:~/Desktop/html$
-```
+   ```
+   user@nb25:~/Desktop/html$
+   ```
 
-ou
+   ou
 
-```
-user@nb25:/opt/lampp/htdocs$
-```
+   ```
+   user@nb25:/opt/lampp/htdocs$
+   ```
 
 4.	Taper la commande suivante
 
-```
-sudo chmod -R 775 wp_workshop
-```
+   ```
+   sudo chmod -R 775 wp_workshop
+   ```
 
-Si la commande précédente ne fonctionne pas ou ne déverrouille pas les fichiers et sous-dossiers du dossier verrouillé, et qu’en faisant un clic droit dans le dossier de votre site WordPress dans le dossier de votre serveur local, vous n’avez pas accès au menu contextuel qui vous permet de créer un nouveau dossier ou un nouveau fichier, essayer alors cette commande : 
+   Si la commande précédente ne fonctionne pas ou ne déverrouille pas les fichiers et sous-dossiers du dossier verrouillé, et qu’en faisant un clic droit dans le dossier de votre site WordPress dans le dossier de votre serveur local, vous n’avez pas accès au menu contextuel qui vous permet de créer un nouveau dossier ou un nouveau fichier, essayer alors cette commande : 
 
-```
-sudo chmod -R 777 wp_workshop
-```
+   ```
+   sudo chmod -R 777 wp_workshop
+   ```
 
-Ces 2 commandes vous donnent les droits administrateur sur votre dossier WordPress. La commande 
+   Ces 2 commandes vous donnent les droits administrateur sur votre dossier WordPress. La commande 
 
 5.	Vous pouvez à présent créer un dossier "twentyseventeen_child" dans wp-content --> themes
