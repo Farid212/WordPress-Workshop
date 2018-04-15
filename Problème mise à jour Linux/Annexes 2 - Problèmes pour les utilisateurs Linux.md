@@ -27,7 +27,10 @@ echo(exec("whoami"));
 *	Faites un clic droit sur le dossier et dans le menu déroulant sélectionner « Open in terminal »
 
 *	Vous devriez avoir dans votre console un chemin ressemblant à cela :
+
+```
 user@nb25:/var/www/html$
+```
 
 ou
 ```
