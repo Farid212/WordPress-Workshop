@@ -26,13 +26,13 @@ Voici les étapes de sécurisation de votre site avec le plugin gratuit SecuPres
 
 4. SecuPress propose de réaliser un scan de votre site
 
-![Télécharger Secupress](securite_secupress_reglages1.png)
+![Télécharger Secupress](images/securite_secupress_reglages1.png)
 
 5. Cliquer en haut sur le bouton "Scanner mon site"
 
 6. SecuPress affiche un rapport détaillé des points qu'il est possible d'améliorer.
 
-![SecuPress Rapport](secupress_rapport.png)
+![SecuPress Rapport](images/secupress_rapport.png)
 
 7. Après avoir visionné les 2 liens (vidéo + article) qui précèdent afin de comprendre les mesures faciles à mettre en place et qui amélioreront grandement la sécurité de votre site.
 
