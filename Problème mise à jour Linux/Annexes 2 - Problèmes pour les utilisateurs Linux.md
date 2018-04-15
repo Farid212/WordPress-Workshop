@@ -3,6 +3,10 @@
 ## Demande de paramètre FTP pour mettre à jour des extensions lors d’un développement de site WordPress en local (localhost)
 
 Pour certains utilisateurs de Linux sous Ubuntu, WordPress demande de passer par FTP pour pouvoir faire les mises à jour. Ce n’est pas normal, mais il y a une solution ! Il s’agit d’un problème de droit d’écriture pour l’utilisateur sur le dossier WordPress.
+
+
+![Problème FTP mise à jour localhost](interface_barre_menus_probleme_FTP.jpg)
+ 
  
 Étape à suivre uniquement pour les utilisateurs qui rencontrent le problème FTP lors de la mise à jour des extensions WordPress
 
